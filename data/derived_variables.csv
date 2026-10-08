@@ -1,0 +1,7 @@
+id,label,numerator,denominator,scale,type
+pct_other_language,Speak a language other than English at home (% of population 5+),ACSST5Y2024.S1603:S1603_C04_001E,ACSST5Y2024.S1603:S1603_C01_001E,100,percent
+pct_spanish,Speak Spanish at home (% of population 5+),ACSST5Y2024.S1603:S1603_C06_001E,ACSST5Y2024.S1603:S1603_C01_001E,100,percent
+pct_foreign_born,Foreign born (% of population 5+),ACSST5Y2024.S1603:S1603_C01_006E,ACSST5Y2024.S1603:S1603_C01_001E,100,percent
+pct_poverty,Below poverty level (% of population 5+ with poverty status),ACSST5Y2024.S1603:S1603_C01_010E,ACSST5Y2024.S1603:S1603_C01_009E,100,percent
+pct_bachelors,Bachelor's degree or higher (% of adults 25+),ACSST5Y2024.S1603:S1603_C01_016E,ACSST5Y2024.S1603:S1603_C01_012E,100,percent
+pop5_density,Population 5+ per square mile of land,ACSST5Y2024.S1603:S1603_C01_001E,GEO:ALAND_SQMI,1,density

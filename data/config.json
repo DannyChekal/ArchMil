@@ -1,0 +1,27 @@
+{
+  "title": "Archdiocese of Milwaukee — Parish Demographics",
+  "state_fips": "55",
+  "counties": {
+    "027": "Dodge",
+    "039": "Fond du Lac",
+    "059": "Kenosha",
+    "079": "Milwaukee",
+    "089": "Ozaukee",
+    "101": "Racine",
+    "117": "Sheboygan",
+    "127": "Walworth",
+    "131": "Washington",
+    "133": "Waukesha"
+  },
+  "tract_source_url": "https://raw.githubusercontent.com/loganpowell/census-geojson/master/GeoJSON/500k/2022/55/tract.json",
+  "default_radius_miles": 3,
+  "default_variables": [
+    "CUSTOM:pct_spanish",
+    "CUSTOM:pct_foreign_born",
+    "CUSTOM:pct_poverty",
+    "CUSTOM:pct_bachelors",
+    "ACSST5Y2024.S1603:S1603_C01_001E",
+    "ACSST5Y2024.S0801:S0801_C01_009E",
+    "ACSST5Y2024.S0801:S0801_C01_046E"
+  ]
+}

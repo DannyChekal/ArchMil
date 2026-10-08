@@ -1,0 +1,155 @@
+ACSST5Y2024.S0801  Commuting Characteristics by Sex
+tracts with data: 638; tracts missing: 0
+S0801_C01_001E     count    sum                                                                    Total > Workers 16 years and over
+S0801_C01_002E     percent  wavg   universe in same column    weight S0801_C01_001E                Total > Workers 16 years and over > MEANS OF TRANSPORTATION TO WORK > Car, truck, or van
+S0801_C01_003E     percent  wavg   universe in same column    weight S0801_C01_001E                Total > Workers 16 years and over > MEANS OF TRANSPORTATION TO WORK > Car, truck, or van > Drove alone
+S0801_C01_004E     percent  wavg   universe in same column    weight S0801_C01_001E                Total > Workers 16 years and over > MEANS OF TRANSPORTATION TO WORK > Car, truck, or van > Carpooled
+S0801_C01_005E     percent  wavg   universe in same column    weight S0801_C01_001E                Total > Workers 16 years and over > MEANS OF TRANSPORTATION TO WORK > Car, truck, or van > Carpooled > In 2-person carpool
+S0801_C01_006E     percent  wavg   universe in same column    weight S0801_C01_001E                Total > Workers 16 years and over > MEANS OF TRANSPORTATION TO WORK > Car, truck, or van > Carpooled > In 3-person carpool
+S0801_C01_007E     percent  wavg   universe in same column    weight S0801_C01_001E                Total > Workers 16 years and over > MEANS OF TRANSPORTATION TO WORK > Car, truck, or van > Carpooled > In 4-or-more person carpool
+S0801_C01_008E     mean     wavg   universe in same column    weight S0801_C01_001E                Total > Workers 16 years and over > MEANS OF TRANSPORTATION TO WORK > Car, truck, or van > Workers per car, truck, or van
+S0801_C01_009E     percent  wavg   universe in same column    weight S0801_C01_001E                Total > Workers 16 years and over > MEANS OF TRANSPORTATION TO WORK > Public transportation
+S0801_C01_010E     percent  wavg   universe in same column    weight S0801_C01_001E                Total > Workers 16 years and over > MEANS OF TRANSPORTATION TO WORK > Walked
+S0801_C01_011E     percent  wavg   universe in same column    weight S0801_C01_001E                Total > Workers 16 years and over > MEANS OF TRANSPORTATION TO WORK > Bicycle
+S0801_C01_012E     percent  wavg   universe in same column    weight S0801_C01_001E                Total > Workers 16 years and over > MEANS OF TRANSPORTATION TO WORK > Taxi or ride-hailing services, motorcycle, or other means
+S0801_C01_013E     percent  wavg   universe in same column    weight S0801_C01_001E                Total > Workers 16 years and over > MEANS OF TRANSPORTATION TO WORK > Worked from home
+S0801_C01_014E     percent  wavg   universe in same column    weight S0801_C01_001E                Total > Workers 16 years and over > PLACE OF WORK > Worked in state of residence
+S0801_C01_015E     percent  wavg   universe in same column    weight S0801_C01_001E                Total > Workers 16 years and over > PLACE OF WORK > Worked in state of residence > Worked in county of residence
+S0801_C01_016E     percent  wavg   universe in same column    weight S0801_C01_001E                Total > Workers 16 years and over > PLACE OF WORK > Worked in state of residence > Worked outside county of residence
+S0801_C01_017E     percent  wavg   universe in same column    weight S0801_C01_001E                Total > Workers 16 years and over > PLACE OF WORK > Worked outside state of residence
+S0801_C01_018E     percent  wavg   universe in same column    weight S0801_C01_001E                Total > Workers 16 years and over > PLACE OF WORK > Living in a place
+S0801_C01_019E     percent  wavg   universe in same column    weight S0801_C01_001E                Total > Workers 16 years and over > PLACE OF WORK > Living in a place > Worked in place of residence
+S0801_C01_020E     percent  wavg   universe in same column    weight S0801_C01_001E                Total > Workers 16 years and over > PLACE OF WORK > Living in a place > Worked outside place of residence
+S0801_C01_021E     percent  wavg   universe in same column    weight S0801_C01_001E                Total > Workers 16 years and over > PLACE OF WORK > Not living in a place
+S0801_C01_022E     percent  wavg   universe in same column    weight S0801_C01_001E                Total > Workers 16 years and over > PLACE OF WORK > Living in 12 selected states
+S0801_C01_023E     percent  wavg   universe in same column    weight S0801_C01_001E                Total > Workers 16 years and over > PLACE OF WORK > Living in 12 selected states > Worked in minor civil division of residence
+S0801_C01_024E     percent  wavg   universe in same column    weight S0801_C01_001E                Total > Workers 16 years and over > PLACE OF WORK > Living in 12 selected states > Worked outside minor civil division of residence
+S0801_C01_025E     percent  wavg   universe in same column    weight S0801_C01_001E                Total > Workers 16 years and over > PLACE OF WORK > Not living in 12 selected states
+S0801_C01_026E     count    sum                                                                    Total > Workers 16 years and over who did not work from home
+S0801_C01_027E     percent  wavg   universe in same column    weight S0801_C01_026E                Total > Workers 16 years and over who did not work from home > TIME OF DEPARTURE TO GO TO WORK > 12:00 a.m. to 4:59 a.m.
+S0801_C01_028E     percent  wavg   universe in same column    weight S0801_C01_026E                Total > Workers 16 years and over who did not work from home > TIME OF DEPARTURE TO GO TO WORK > 5:00 a.m. to 5:29 a.m.
+S0801_C01_029E     percent  wavg   universe in same column    weight S0801_C01_026E                Total > Workers 16 years and over who did not work from home > TIME OF DEPARTURE TO GO TO WORK > 5:30 a.m. to 5:59 a.m.
+S0801_C01_030E     percent  wavg   universe in same column    weight S0801_C01_026E                Total > Workers 16 years and over who did not work from home > TIME OF DEPARTURE TO GO TO WORK > 6:00 a.m. to 6:29 a.m.
+S0801_C01_031E     percent  wavg   universe in same column    weight S0801_C01_026E                Total > Workers 16 years and over who did not work from home > TIME OF DEPARTURE TO GO TO WORK > 6:30 a.m. to 6:59 a.m.
+S0801_C01_032E     percent  wavg   universe in same column    weight S0801_C01_026E                Total > Workers 16 years and over who did not work from home > TIME OF DEPARTURE TO GO TO WORK > 7:00 a.m. to 7:29 a.m.
+S0801_C01_033E     percent  wavg   universe in same column    weight S0801_C01_026E                Total > Workers 16 years and over who did not work from home > TIME OF DEPARTURE TO GO TO WORK > 7:30 a.m. to 7:59 a.m.
+S0801_C01_034E     percent  wavg   universe in same column    weight S0801_C01_026E                Total > Workers 16 years and over who did not work from home > TIME OF DEPARTURE TO GO TO WORK > 8:00 a.m. to 8:29 a.m.
+S0801_C01_035E     percent  wavg   universe in same column    weight S0801_C01_026E                Total > Workers 16 years and over who did not work from home > TIME OF DEPARTURE TO GO TO WORK > 8:30 a.m. to 8:59 a.m.
+S0801_C01_036E     percent  wavg   universe in same column    weight S0801_C01_026E                Total > Workers 16 years and over who did not work from home > TIME OF DEPARTURE TO GO TO WORK > 9:00 a.m. to 11:59 p.m.
+S0801_C01_037E     percent  wavg   universe in same column    weight S0801_C01_026E                Total > Workers 16 years and over who did not work from home > TRAVEL TIME TO WORK > Less than 10 minutes
+S0801_C01_038E     percent  wavg   universe in same column    weight S0801_C01_026E                Total > Workers 16 years and over who did not work from home > TRAVEL TIME TO WORK > 10 to 14 minutes
+S0801_C01_039E     percent  wavg   universe in same column    weight S0801_C01_026E                Total > Workers 16 years and over who did not work from home > TRAVEL TIME TO WORK > 15 to 19 minutes
+S0801_C01_040E     percent  wavg   universe in same column    weight S0801_C01_026E                Total > Workers 16 years and over who did not work from home > TRAVEL TIME TO WORK > 20 to 24 minutes
+S0801_C01_041E     percent  wavg   universe in same column    weight S0801_C01_026E                Total > Workers 16 years and over who did not work from home > TRAVEL TIME TO WORK > 25 to 29 minutes
+S0801_C01_042E     percent  wavg   universe in same column    weight S0801_C01_026E                Total > Workers 16 years and over who did not work from home > TRAVEL TIME TO WORK > 30 to 34 minutes
+S0801_C01_043E     percent  wavg   universe in same column    weight S0801_C01_026E                Total > Workers 16 years and over who did not work from home > TRAVEL TIME TO WORK > 35 to 44 minutes
+S0801_C01_044E     percent  wavg   universe in same column    weight S0801_C01_026E                Total > Workers 16 years and over who did not work from home > TRAVEL TIME TO WORK > 45 to 59 minutes
+S0801_C01_045E     percent  wavg   universe in same column    weight S0801_C01_026E                Total > Workers 16 years and over who did not work from home > TRAVEL TIME TO WORK > 60 or more minutes
+S0801_C01_046E     mean     wavg   universe in same column    weight S0801_C01_026E                Total > Workers 16 years and over who did not work from home > TRAVEL TIME TO WORK > Mean travel time to work (minutes)
+S0801_C01_047E     count    sum                                                                    Total > VEHICLES AVAILABLE > Workers 16 years and over in households
+S0801_C01_048E     percent  wavg   universe in same column    weight S0801_C01_047E                Total > VEHICLES AVAILABLE > Workers 16 years and over in households > No vehicle available
+S0801_C01_049E     percent  wavg   universe in same column    weight S0801_C01_047E                Total > VEHICLES AVAILABLE > Workers 16 years and over in households > 1 vehicle available
+S0801_C01_050E     percent  wavg   universe in same column    weight S0801_C01_047E                Total > VEHICLES AVAILABLE > Workers 16 years and over in households > 2 vehicles available
+S0801_C01_051E     percent  wavg   universe in same column    weight S0801_C01_047E                Total > VEHICLES AVAILABLE > Workers 16 years and over in households > 3 or more vehicles available
+S0801_C02_001E     count    sum                                                                    Male > Workers 16 years and over
+S0801_C02_002E     percent  wavg   universe in same column    weight S0801_C02_001E                Male > Workers 16 years and over > MEANS OF TRANSPORTATION TO WORK > Car, truck, or van
+S0801_C02_003E     percent  wavg   universe in same column    weight S0801_C02_001E                Male > Workers 16 years and over > MEANS OF TRANSPORTATION TO WORK > Car, truck, or van > Drove alone
+S0801_C02_004E     percent  wavg   universe in same column    weight S0801_C02_001E                Male > Workers 16 years and over > MEANS OF TRANSPORTATION TO WORK > Car, truck, or van > Carpooled
+S0801_C02_005E     percent  wavg   universe in same column    weight S0801_C02_001E                Male > Workers 16 years and over > MEANS OF TRANSPORTATION TO WORK > Car, truck, or van > Carpooled > In 2-person carpool
+S0801_C02_006E     percent  wavg   universe in same column    weight S0801_C02_001E                Male > Workers 16 years and over > MEANS OF TRANSPORTATION TO WORK > Car, truck, or van > Carpooled > In 3-person carpool
+S0801_C02_007E     percent  wavg   universe in same column    weight S0801_C02_001E                Male > Workers 16 years and over > MEANS OF TRANSPORTATION TO WORK > Car, truck, or van > Carpooled > In 4-or-more person carpool
+S0801_C02_008E     mean     wavg   universe in same column    weight S0801_C02_001E                Male > Workers 16 years and over > MEANS OF TRANSPORTATION TO WORK > Car, truck, or van > Workers per car, truck, or van
+S0801_C02_009E     percent  wavg   universe in same column    weight S0801_C02_001E                Male > Workers 16 years and over > MEANS OF TRANSPORTATION TO WORK > Public transportation
+S0801_C02_010E     percent  wavg   universe in same column    weight S0801_C02_001E                Male > Workers 16 years and over > MEANS OF TRANSPORTATION TO WORK > Walked
+S0801_C02_011E     percent  wavg   universe in same column    weight S0801_C02_001E                Male > Workers 16 years and over > MEANS OF TRANSPORTATION TO WORK > Bicycle
+S0801_C02_012E     percent  wavg   universe in same column    weight S0801_C02_001E                Male > Workers 16 years and over > MEANS OF TRANSPORTATION TO WORK > Taxi or ride-hailing services, motorcycle, or other means
+S0801_C02_013E     percent  wavg   universe in same column    weight S0801_C02_001E                Male > Workers 16 years and over > MEANS OF TRANSPORTATION TO WORK > Worked from home
+S0801_C02_014E     percent  wavg   universe in same column    weight S0801_C02_001E                Male > Workers 16 years and over > PLACE OF WORK > Worked in state of residence
+S0801_C02_015E     percent  wavg   universe in same column    weight S0801_C02_001E                Male > Workers 16 years and over > PLACE OF WORK > Worked in state of residence > Worked in county of residence
+S0801_C02_016E     percent  wavg   universe in same column    weight S0801_C02_001E                Male > Workers 16 years and over > PLACE OF WORK > Worked in state of residence > Worked outside county of residence
+S0801_C02_017E     percent  wavg   universe in same column    weight S0801_C02_001E                Male > Workers 16 years and over > PLACE OF WORK > Worked outside state of residence
+S0801_C02_018E     percent  wavg   universe in same column    weight S0801_C02_001E                Male > Workers 16 years and over > PLACE OF WORK > Living in a place
+S0801_C02_019E     percent  wavg   universe in same column    weight S0801_C02_001E                Male > Workers 16 years and over > PLACE OF WORK > Living in a place > Worked in place of residence
+S0801_C02_020E     percent  wavg   universe in same column    weight S0801_C02_001E                Male > Workers 16 years and over > PLACE OF WORK > Living in a place > Worked outside place of residence
+S0801_C02_021E     percent  wavg   universe in same column    weight S0801_C02_001E                Male > Workers 16 years and over > PLACE OF WORK > Not living in a place
+S0801_C02_022E     percent  wavg   universe in same column    weight S0801_C02_001E                Male > Workers 16 years and over > PLACE OF WORK > Living in 12 selected states
+S0801_C02_023E     percent  wavg   universe in same column    weight S0801_C02_001E                Male > Workers 16 years and over > PLACE OF WORK > Living in 12 selected states > Worked in minor civil division of residence
+S0801_C02_024E     percent  wavg   universe in same column    weight S0801_C02_001E                Male > Workers 16 years and over > PLACE OF WORK > Living in 12 selected states > Worked outside minor civil division of residence
+S0801_C02_025E     percent  wavg   universe in same column    weight S0801_C02_001E                Male > Workers 16 years and over > PLACE OF WORK > Not living in 12 selected states
+S0801_C02_026E     count    sum                                                                    Male > Workers 16 years and over who did not work from home
+S0801_C02_027E     percent  wavg   universe in same column    weight S0801_C02_026E                Male > Workers 16 years and over who did not work from home > TIME OF DEPARTURE TO GO TO WORK > 12:00 a.m. to 4:59 a.m.
+S0801_C02_028E     percent  wavg   universe in same column    weight S0801_C02_026E                Male > Workers 16 years and over who did not work from home > TIME OF DEPARTURE TO GO TO WORK > 5:00 a.m. to 5:29 a.m.
+S0801_C02_029E     percent  wavg   universe in same column    weight S0801_C02_026E                Male > Workers 16 years and over who did not work from home > TIME OF DEPARTURE TO GO TO WORK > 5:30 a.m. to 5:59 a.m.
+S0801_C02_030E     percent  wavg   universe in same column    weight S0801_C02_026E                Male > Workers 16 years and over who did not work from home > TIME OF DEPARTURE TO GO TO WORK > 6:00 a.m. to 6:29 a.m.
+S0801_C02_031E     percent  wavg   universe in same column    weight S0801_C02_026E                Male > Workers 16 years and over who did not work from home > TIME OF DEPARTURE TO GO TO WORK > 6:30 a.m. to 6:59 a.m.
+S0801_C02_032E     percent  wavg   universe in same column    weight S0801_C02_026E                Male > Workers 16 years and over who did not work from home > TIME OF DEPARTURE TO GO TO WORK > 7:00 a.m. to 7:29 a.m.
+S0801_C02_033E     percent  wavg   universe in same column    weight S0801_C02_026E                Male > Workers 16 years and over who did not work from home > TIME OF DEPARTURE TO GO TO WORK > 7:30 a.m. to 7:59 a.m.
+S0801_C02_034E     percent  wavg   universe in same column    weight S0801_C02_026E                Male > Workers 16 years and over who did not work from home > TIME OF DEPARTURE TO GO TO WORK > 8:00 a.m. to 8:29 a.m.
+S0801_C02_035E     percent  wavg   universe in same column    weight S0801_C02_026E                Male > Workers 16 years and over who did not work from home > TIME OF DEPARTURE TO GO TO WORK > 8:30 a.m. to 8:59 a.m.
+S0801_C02_036E     percent  wavg   universe in same column    weight S0801_C02_026E                Male > Workers 16 years and over who did not work from home > TIME OF DEPARTURE TO GO TO WORK > 9:00 a.m. to 11:59 p.m.
+S0801_C02_037E     percent  wavg   universe in same column    weight S0801_C02_026E                Male > Workers 16 years and over who did not work from home > TRAVEL TIME TO WORK > Less than 10 minutes
+S0801_C02_038E     percent  wavg   universe in same column    weight S0801_C02_026E                Male > Workers 16 years and over who did not work from home > TRAVEL TIME TO WORK > 10 to 14 minutes
+S0801_C02_039E     percent  wavg   universe in same column    weight S0801_C02_026E                Male > Workers 16 years and over who did not work from home > TRAVEL TIME TO WORK > 15 to 19 minutes
+S0801_C02_040E     percent  wavg   universe in same column    weight S0801_C02_026E                Male > Workers 16 years and over who did not work from home > TRAVEL TIME TO WORK > 20 to 24 minutes
+S0801_C02_041E     percent  wavg   universe in same column    weight S0801_C02_026E                Male > Workers 16 years and over who did not work from home > TRAVEL TIME TO WORK > 25 to 29 minutes
+S0801_C02_042E     percent  wavg   universe in same column    weight S0801_C02_026E                Male > Workers 16 years and over who did not work from home > TRAVEL TIME TO WORK > 30 to 34 minutes
+S0801_C02_043E     percent  wavg   universe in same column    weight S0801_C02_026E                Male > Workers 16 years and over who did not work from home > TRAVEL TIME TO WORK > 35 to 44 minutes
+S0801_C02_044E     percent  wavg   universe in same column    weight S0801_C02_026E                Male > Workers 16 years and over who did not work from home > TRAVEL TIME TO WORK > 45 to 59 minutes
+S0801_C02_045E     percent  wavg   universe in same column    weight S0801_C02_026E                Male > Workers 16 years and over who did not work from home > TRAVEL TIME TO WORK > 60 or more minutes
+S0801_C02_046E     mean     wavg   universe in same column    weight S0801_C02_026E                Male > Workers 16 years and over who did not work from home > TRAVEL TIME TO WORK > Mean travel time to work (minutes)
+S0801_C02_047E     count    sum                                                                    Male > VEHICLES AVAILABLE > Workers 16 years and over in households
+S0801_C02_048E     percent  wavg   universe in same column    weight S0801_C02_047E                Male > VEHICLES AVAILABLE > Workers 16 years and over in households > No vehicle available
+S0801_C02_049E     percent  wavg   universe in same column    weight S0801_C02_047E                Male > VEHICLES AVAILABLE > Workers 16 years and over in households > 1 vehicle available
+S0801_C02_050E     percent  wavg   universe in same column    weight S0801_C02_047E                Male > VEHICLES AVAILABLE > Workers 16 years and over in households > 2 vehicles available
+S0801_C02_051E     percent  wavg   universe in same column    weight S0801_C02_047E                Male > VEHICLES AVAILABLE > Workers 16 years and over in households > 3 or more vehicles available
+S0801_C03_001E     count    sum                                                                    Female > Workers 16 years and over
+S0801_C03_002E     percent  wavg   universe in same column    weight S0801_C03_001E                Female > Workers 16 years and over > MEANS OF TRANSPORTATION TO WORK > Car, truck, or van
+S0801_C03_003E     percent  wavg   universe in same column    weight S0801_C03_001E                Female > Workers 16 years and over > MEANS OF TRANSPORTATION TO WORK > Car, truck, or van > Drove alone
+S0801_C03_004E     percent  wavg   universe in same column    weight S0801_C03_001E                Female > Workers 16 years and over > MEANS OF TRANSPORTATION TO WORK > Car, truck, or van > Carpooled
+S0801_C03_005E     percent  wavg   universe in same column    weight S0801_C03_001E                Female > Workers 16 years and over > MEANS OF TRANSPORTATION TO WORK > Car, truck, or van > Carpooled > In 2-person carpool
+S0801_C03_006E     percent  wavg   universe in same column    weight S0801_C03_001E                Female > Workers 16 years and over > MEANS OF TRANSPORTATION TO WORK > Car, truck, or van > Carpooled > In 3-person carpool
+S0801_C03_007E     percent  wavg   universe in same column    weight S0801_C03_001E                Female > Workers 16 years and over > MEANS OF TRANSPORTATION TO WORK > Car, truck, or van > Carpooled > In 4-or-more person carpool
+S0801_C03_008E     mean     wavg   universe in same column    weight S0801_C03_001E                Female > Workers 16 years and over > MEANS OF TRANSPORTATION TO WORK > Car, truck, or van > Workers per car, truck, or van
+S0801_C03_009E     percent  wavg   universe in same column    weight S0801_C03_001E                Female > Workers 16 years and over > MEANS OF TRANSPORTATION TO WORK > Public transportation
+S0801_C03_010E     percent  wavg   universe in same column    weight S0801_C03_001E                Female > Workers 16 years and over > MEANS OF TRANSPORTATION TO WORK > Walked
+S0801_C03_011E     percent  wavg   universe in same column    weight S0801_C03_001E                Female > Workers 16 years and over > MEANS OF TRANSPORTATION TO WORK > Bicycle
+S0801_C03_012E     percent  wavg   universe in same column    weight S0801_C03_001E                Female > Workers 16 years and over > MEANS OF TRANSPORTATION TO WORK > Taxi or ride-hailing services, motorcycle, or other means
+S0801_C03_013E     percent  wavg   universe in same column    weight S0801_C03_001E                Female > Workers 16 years and over > MEANS OF TRANSPORTATION TO WORK > Worked from home
+S0801_C03_014E     percent  wavg   universe in same column    weight S0801_C03_001E                Female > Workers 16 years and over > PLACE OF WORK > Worked in state of residence
+S0801_C03_015E     percent  wavg   universe in same column    weight S0801_C03_001E                Female > Workers 16 years and over > PLACE OF WORK > Worked in state of residence > Worked in county of residence
+S0801_C03_016E     percent  wavg   universe in same column    weight S0801_C03_001E                Female > Workers 16 years and over > PLACE OF WORK > Worked in state of residence > Worked outside county of residence
+S0801_C03_017E     percent  wavg   universe in same column    weight S0801_C03_001E                Female > Workers 16 years and over > PLACE OF WORK > Worked outside state of residence
+S0801_C03_018E     percent  wavg   universe in same column    weight S0801_C03_001E                Female > Workers 16 years and over > PLACE OF WORK > Living in a place
+S0801_C03_019E     percent  wavg   universe in same column    weight S0801_C03_001E                Female > Workers 16 years and over > PLACE OF WORK > Living in a place > Worked in place of residence
+S0801_C03_020E     percent  wavg   universe in same column    weight S0801_C03_001E                Female > Workers 16 years and over > PLACE OF WORK > Living in a place > Worked outside place of residence
+S0801_C03_021E     percent  wavg   universe in same column    weight S0801_C03_001E                Female > Workers 16 years and over > PLACE OF WORK > Not living in a place
+S0801_C03_022E     percent  wavg   universe in same column    weight S0801_C03_001E                Female > Workers 16 years and over > PLACE OF WORK > Living in 12 selected states
+S0801_C03_023E     percent  wavg   universe in same column    weight S0801_C03_001E                Female > Workers 16 years and over > PLACE OF WORK > Living in 12 selected states > Worked in minor civil division of residence
+S0801_C03_024E     percent  wavg   universe in same column    weight S0801_C03_001E                Female > Workers 16 years and over > PLACE OF WORK > Living in 12 selected states > Worked outside minor civil division of residence
+S0801_C03_025E     percent  wavg   universe in same column    weight S0801_C03_001E                Female > Workers 16 years and over > PLACE OF WORK > Not living in 12 selected states
+S0801_C03_026E     count    sum                                                                    Female > Workers 16 years and over who did not work from home
+S0801_C03_027E     percent  wavg   universe in same column    weight S0801_C03_026E                Female > Workers 16 years and over who did not work from home > TIME OF DEPARTURE TO GO TO WORK > 12:00 a.m. to 4:59 a.m.
+S0801_C03_028E     percent  wavg   universe in same column    weight S0801_C03_026E                Female > Workers 16 years and over who did not work from home > TIME OF DEPARTURE TO GO TO WORK > 5:00 a.m. to 5:29 a.m.
+S0801_C03_029E     percent  wavg   universe in same column    weight S0801_C03_026E                Female > Workers 16 years and over who did not work from home > TIME OF DEPARTURE TO GO TO WORK > 5:30 a.m. to 5:59 a.m.
+S0801_C03_030E     percent  wavg   universe in same column    weight S0801_C03_026E                Female > Workers 16 years and over who did not work from home > TIME OF DEPARTURE TO GO TO WORK > 6:00 a.m. to 6:29 a.m.
+S0801_C03_031E     percent  wavg   universe in same column    weight S0801_C03_026E                Female > Workers 16 years and over who did not work from home > TIME OF DEPARTURE TO GO TO WORK > 6:30 a.m. to 6:59 a.m.
+S0801_C03_032E     percent  wavg   universe in same column    weight S0801_C03_026E                Female > Workers 16 years and over who did not work from home > TIME OF DEPARTURE TO GO TO WORK > 7:00 a.m. to 7:29 a.m.
+S0801_C03_033E     percent  wavg   universe in same column    weight S0801_C03_026E                Female > Workers 16 years and over who did not work from home > TIME OF DEPARTURE TO GO TO WORK > 7:30 a.m. to 7:59 a.m.
+S0801_C03_034E     percent  wavg   universe in same column    weight S0801_C03_026E                Female > Workers 16 years and over who did not work from home > TIME OF DEPARTURE TO GO TO WORK > 8:00 a.m. to 8:29 a.m.
+S0801_C03_035E     percent  wavg   universe in same column    weight S0801_C03_026E                Female > Workers 16 years and over who did not work from home > TIME OF DEPARTURE TO GO TO WORK > 8:30 a.m. to 8:59 a.m.
+S0801_C03_036E     percent  wavg   universe in same column    weight S0801_C03_026E                Female > Workers 16 years and over who did not work from home > TIME OF DEPARTURE TO GO TO WORK > 9:00 a.m. to 11:59 p.m.
+S0801_C03_037E     percent  wavg   universe in same column    weight S0801_C03_026E                Female > Workers 16 years and over who did not work from home > TRAVEL TIME TO WORK > Less than 10 minutes
+S0801_C03_038E     percent  wavg   universe in same column    weight S0801_C03_026E                Female > Workers 16 years and over who did not work from home > TRAVEL TIME TO WORK > 10 to 14 minutes
+S0801_C03_039E     percent  wavg   universe in same column    weight S0801_C03_026E                Female > Workers 16 years and over who did not work from home > TRAVEL TIME TO WORK > 15 to 19 minutes
+S0801_C03_040E     percent  wavg   universe in same column    weight S0801_C03_026E                Female > Workers 16 years and over who did not work from home > TRAVEL TIME TO WORK > 20 to 24 minutes
+S0801_C03_041E     percent  wavg   universe in same column    weight S0801_C03_026E                Female > Workers 16 years and over who did not work from home > TRAVEL TIME TO WORK > 25 to 29 minutes
+S0801_C03_042E     percent  wavg   universe in same column    weight S0801_C03_026E                Female > Workers 16 years and over who did not work from home > TRAVEL TIME TO WORK > 30 to 34 minutes
+S0801_C03_043E     percent  wavg   universe in same column    weight S0801_C03_026E                Female > Workers 16 years and over who did not work from home > TRAVEL TIME TO WORK > 35 to 44 minutes
+S0801_C03_044E     percent  wavg   universe in same column    weight S0801_C03_026E                Female > Workers 16 years and over who did not work from home > TRAVEL TIME TO WORK > 45 to 59 minutes
+S0801_C03_045E     percent  wavg   universe in same column    weight S0801_C03_026E                Female > Workers 16 years and over who did not work from home > TRAVEL TIME TO WORK > 60 or more minutes
+S0801_C03_046E     mean     wavg   universe in same column    weight S0801_C03_026E                Female > Workers 16 years and over who did not work from home > TRAVEL TIME TO WORK > Mean travel time to work (minutes)
+S0801_C03_047E     count    sum                                                                    Female > VEHICLES AVAILABLE > Workers 16 years and over in households
+S0801_C03_048E     percent  wavg   universe in same column    weight S0801_C03_047E                Female > VEHICLES AVAILABLE > Workers 16 years and over in households > No vehicle available
+S0801_C03_049E     percent  wavg   universe in same column    weight S0801_C03_047E                Female > VEHICLES AVAILABLE > Workers 16 years and over in households > 1 vehicle available
+S0801_C03_050E     percent  wavg   universe in same column    weight S0801_C03_047E                Female > VEHICLES AVAILABLE > Workers 16 years and over in households > 2 vehicles available
+S0801_C03_051E     percent  wavg   universe in same column    weight S0801_C03_047E                Female > VEHICLES AVAILABLE > Workers 16 years and over in households > 3 or more vehicles available

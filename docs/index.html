@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Parish Demographics — Archdiocese of Milwaukee</title>
+<link rel="stylesheet" href="vendor/leaflet/leaflet.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site"></header>
+<main>
+  <div class="controls">
+    <div class="group" id="bctl"></div>
+    <div class="group">
+      <span class="ctl-label">Map shows</span>
+      <select id="colorBy"></select>
+      <div class="seg" id="levelSeg" title="Colour each tract by its own value, or by the value of the parish it belongs to">
+        <label><input type="radio" name="level" value="tract" checked> Tract values</label>
+        <label><input type="radio" name="level" value="parish"> Parish values</label>
+      </div>
+    </div>
+  </div>
+  <div class="map-wrap">
+    <div id="map"></div>
+    <div class="map-legend" id="legend"></div>
+  </div>
+
+  <section class="card" style="margin-top:1rem">
+    <div class="table-tools">
+      <h2 style="margin:0">Parishes</h2>
+      <input type="search" id="q" placeholder="Filter by name, city, region, tag…">
+      <select id="fCategory"><option value="">All categories</option></select>
+      <select id="fCounty"><option value="">All counties</option></select>
+      <select id="fRegion"><option value="">All regions</option></select>
+      <span class="spacer"></span>
+      <span class="muted" id="rowCount"></span>
+      <button class="btn-primary" id="addVars" type="button">+ Variables</button>
+      <button class="btn-secondary" id="csv" type="button">Download CSV</button>
+    </div>
+    <div class="tscroll"><table class="data" id="ptable"></table></div>
+    <p class="muted small" id="tableNote"></p>
+  </section>
+</main>
+<script src="vendor/leaflet/leaflet.js"></script>
+<script src="js/common.js"></script>
+<script src="js/overview.js"></script>
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Methods &amp; Data — Parish Demographics</title>
+<link rel="stylesheet" href="css/style.css">
+<style>
+  main { max-width: 900px; }
+  .card p, .card li { line-height: 1.55; }
+  code { background: #efece6; padding: 0 .25rem; border-radius: 3px; font-size: .9em; }
+  pre { background: #efece6; padding: .6rem .8rem; border-radius: 6px; overflow: auto; }
+</style>
+</head>
+<body>
+<header class="site"></header>
+<main>
+  <section class="card">
+    <h1>Methods &amp; data</h1>
+    <h2>Parish areas</h2>
+    <p>Parishes have no published territorial boundaries here, so each parish's area is built from 2020-definition
+      <b>census tracts</b> in the ten counties of the Archdiocese (Dodge, Fond du Lac, Kenosha, Milwaukee, Ozaukee,
+      Racine, Sheboygan, Walworth, Washington, Waukesha). Two definitions can be switched on every page:</p>
+    <ul>
+      <li><b>Nearest-parish tracts.</b> Every tract is assigned to the parish whose closest <i>active</i> church/worship
+        site is nearest to the tract's centre (straight-line distance). A tract that physically contains a parish site always
+        belongs to that parish. The only overlap occurs when sites of two or more parishes are in the same tract — that tract
+        then counts for all of them. Multi-site parishes use whichever of their sites is closest. Parishes marked
+        <code>boundary = no</code> (shrines, campus ministry, personal/ethnic parishes, Eastern Catholic churches) do not take
+        territory; their profile shows only the tract(s) their sites are in.</li>
+      <li><b>Tracts within X miles.</b> All tracts whose centre lies within the chosen radius of any active site of the parish
+        (plus the tract containing the site). Areas overlap freely; the radius can be changed on the page.</li>
+    </ul>
+    <p>The tract “centre” is the area centroid, moved inside the tract when the shape is irregular. Archdiocese totals are
+      always computed from all tracts once, so overlapping parish areas never double-count.</p>
+
+    <h2>Combining ACS estimates across tracts</h2>
+    <ul>
+      <li><b>Counts</b> are summed. Margins of error are combined as the square root of the sum of squared tract MOEs
+        (Census Bureau approximation), shown on hover in profiles.</li>
+      <li><b>Percentages</b> are recomputed exactly as Σ numerator ÷ Σ denominator when the build script can find the
+        numerator and denominator count columns in the same table (it checks this against the published tract
+        percentages). Otherwise they are averaged, weighted by the table's universe count (e.g. workers 16+), which equals the
+        exact result when the universe is right.</li>
+      <li><b>Medians and means</b> (median income, mean travel time…) are weighted averages of tract values. For medians this
+        is an <i>approximation</i> and is labelled “approx.”.</li>
+      <li><b>Custom indicators</b> (<code>data/derived_variables.csv</code>) are ratios of sums, e.g. people speaking Spanish at
+        home ÷ population 5+. They are exact for any area and may combine columns from different tables.</li>
+    </ul>
+    <p>Every column's rule is listed in <code>docs/data/acs/&lt;TABLE&gt;.report.txt</code> after a build, and any rule can be
+      overridden in <code>data/acs_overrides.csv</code>.</p>
+    <p class="muted">ACS 5-year tract estimates have sizeable margins of error, especially for small areas and small groups.
+      Treat differences of a few points between parishes with care.</p>
+
+    <h2>Sources</h2>
+    <ul>
+      <li>U.S. Census Bureau, American Community Survey 5-year estimates (tables listed on the overview's variable picker).</li>
+      <li>Census tract boundaries: U.S. Census Bureau cartographic boundary files (1:500,000, 2022 vintage).</li>
+      <li>Parish sites: archmil.org parish finder, curated in <code>data/parishes.csv</code> and <code>data/locations.csv</code>.</li>
+      <li>Basemap © OpenStreetMap contributors, © CARTO.</li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h2>Maintaining the site</h2>
+    <h3>Add more ACS data</h3>
+    <ol>
+      <li>On <a href="https://data.census.gov" target="_blank" rel="noopener">data.census.gov</a>, open any table (Subject
+        “S…”, Data Profile “DP…”, or Detailed “B…/C…”), set Geography to <b>Census Tract → Wisconsin → all ten archdiocese
+        counties</b>, choose the 5-year dataset, and download it as CSV (ZIP).</li>
+      <li>Put the ZIP, unmodified, in <code>data/acs/</code>. Several downloads of the same table (e.g. one per county) are
+        merged automatically.</li>
+      <li>Run <code>python3 scripts/build.py</code> (or just push to GitHub — the workflow rebuilds the site).</li>
+    </ol>
+    <h3>Correct or categorise parishes</h3>
+    <ul>
+      <li>Use <a href="edit.html">Edit parishes</a> to move sites, merge/split parishes, set categories, regions/deaneries
+        and tags, and mark sites inactive. Then download both CSVs into <code>data/</code> and rebuild — or edit the CSVs
+        directly in Excel.</li>
+      <li>When archmil.org changes, save the parish-finder HTML to <code>data/source/archmil_places.html</code> and run
+        <code>python3 scripts/import_places.py</code>. New sites are appended (marked REVIEW); your corrections are never
+        overwritten; differences are listed in <code>data/source/import_report.txt</code>.</li>
+    </ul>
+  </section>
+</main>
+<script src="js/common.js"></script>
+<script>AM.header("about");</script>
+</body>
+</html>

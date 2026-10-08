@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Edit Parishes — Archdiocese of Milwaukee</title>
+<link rel="stylesheet" href="vendor/leaflet/leaflet.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site"></header>
+<main>
+  <section class="card">
+    <div class="table-tools">
+      <h1 style="margin:0">Edit parishes &amp; sites</h1>
+      <span class="spacer"></span>
+      <span id="status" class="muted"></span>
+    </div>
+    <p class="small muted" style="margin:.2rem 0 .6rem">
+      Changes are saved in this browser as you type and immediately used by the map, table and profiles (a yellow banner reminds you).
+      To make them permanent for everyone, download both CSV files, replace <code>data/parishes.csv</code> and <code>data/locations.csv</code>
+      in the repository, and rebuild (see Methods &amp; data). You can also edit the CSVs in Excel and load them here to check them on the map.
+    </p>
+    <div class="table-tools" style="margin:0">
+      <button class="btn-primary" id="dlP" type="button">Download parishes.csv</button>
+      <button class="btn-primary" id="dlL" type="button">Download locations.csv</button>
+      <label class="btn-secondary">Load CSV files… <input type="file" id="upload" accept=".csv" multiple hidden></label>
+      <button class="btn-secondary btn-danger" id="discard" type="button">Discard browser edits</button>
+    </div>
+  </section>
+
+  <div class="edit-grid">
+    <div>
+      <div id="emap"></div>
+      <p class="small muted">Select a parish, then drag its blue pins to correct locations, or click “Place on map” for a site and click the map.
+        Shaded tracts are the parish's nearest-parish area with the current data.</p>
+    </div>
+    <div>
+      <section class="card">
+        <div class="table-tools">
+          <input type="search" id="q" placeholder="Find parish or site…" style="flex:1">
+          <select id="onlyIssues"><option value="">All parishes</option><option value="issues">Needs review</option><option value="changed">Changed</option></select>
+          <button class="btn-secondary" id="newParish" type="button">+ New parish</button>
+        </div>
+        <div class="tscroll" style="max-height:30vh"><table class="data" id="plist"></table></div>
+      </section>
+      <section class="card" id="editor"><p class="muted">Select a parish to edit it.</p></section>
+      <section class="card">
+        <h2>Data checks</h2>
+        <ul class="issues small" id="issues"></ul>
+      </section>
+    </div>
+  </div>
+  <datalist id="categories"></datalist>
+  <datalist id="regions"></datalist>
+</main>
+<script src="vendor/leaflet/leaflet.js"></script>
+<script src="js/common.js"></script>
+<script src="js/edit.js"></script>
+</body>
+</html>

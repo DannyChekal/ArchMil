@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Parish Profile — Archdiocese of Milwaukee</title>
+<link rel="stylesheet" href="vendor/leaflet/leaflet.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site"></header>
+<main>
+  <div class="controls">
+    <div class="chooser group">
+      <span class="ctl-label">Parish</span>
+      <input type="search" id="chooser" placeholder="Type a parish name or city…" autocomplete="off">
+      <ul id="chooserList" hidden></ul>
+    </div>
+    <div class="group" id="bctl"></div>
+  </div>
+  <div id="content"><p class="muted">Loading…</p></div>
+</main>
+<script src="vendor/leaflet/leaflet.js"></script>
+<script src="js/common.js"></script>
+<script src="js/parish.js"></script>
+</body>
+</html>

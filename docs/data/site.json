@@ -1,0 +1,16 @@
+{
+ "title": "Archdiocese of Milwaukee \u2014 Parish Demographics",
+ "default_radius_miles": 3,
+ "counties": {
+  "027": "Dodge",
+  "039": "Fond du Lac",
+  "059": "Kenosha",
+  "079": "Milwaukee",
+  "089": "Ozaukee",
+  "101": "Racine",
+  "117": "Sheboygan",
+  "127": "Walworth",
+  "131": "Washington",
+  "133": "Waukesha"
+ }
+}

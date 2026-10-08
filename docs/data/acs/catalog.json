@@ -1,0 +1,57 @@
+{
+ "tables": [
+  {
+   "id": "CUSTOM",
+   "table": "Custom",
+   "title": "Key indicators (data/derived_variables.csv)",
+   "year": "",
+   "dataset": "Derived from the ACS tables above",
+   "source": "",
+   "tracts": 553,
+   "missing_tracts": 85,
+   "columns": 6
+  },
+  {
+   "id": "ACSST5Y2024.S0801",
+   "table": "S0801",
+   "title": "Commuting Characteristics by Sex",
+   "year": "2024",
+   "dataset": "ACS 5-Year Estimates Subject Tables",
+   "source": "U.S. Census Bureau, 2024 American Community Survey, 5-Year Estimates",
+   "tracts": 638,
+   "missing_tracts": 0,
+   "columns": 153
+  },
+  {
+   "id": "ACSST5Y2024.S1603",
+   "table": "S1603",
+   "title": "Characteristics of People by Language Spoken at Home",
+   "year": "2024",
+   "dataset": "ACS 5-Year Estimates Subject Tables",
+   "source": "U.S. Census Bureau, 2024 American Community Survey, 5-Year Estimates",
+   "tracts": 553,
+   "missing_tracts": 85,
+   "columns": 103
+  },
+  {
+   "id": "ACSST5Y2024.S2401",
+   "table": "S2401",
+   "title": "Occupation by Sex for the Civilian Employed Population 16 Years and Over",
+   "year": "2024",
+   "dataset": "ACS 5-Year Estimates Subject Tables",
+   "source": "U.S. Census Bureau, 2024 American Community Survey, 5-Year Estimates",
+   "tracts": 638,
+   "missing_tracts": 0,
+   "columns": 180
+  }
+ ],
+ "defaults": [
+  "CUSTOM:pct_spanish",
+  "CUSTOM:pct_foreign_born",
+  "CUSTOM:pct_poverty",
+  "CUSTOM:pct_bachelors",
+  "ACSST5Y2024.S1603:S1603_C01_001E",
+  "ACSST5Y2024.S0801:S0801_C01_009E",
+  "ACSST5Y2024.S0801:S0801_C01_046E"
+ ]
+}
